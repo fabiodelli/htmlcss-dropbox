@@ -4,7 +4,7 @@
  box-sizing:border-box;
  font-family: 'Open Sans', sans-serif;
  border: dashed black 1px;
- font-size: 15px;
+ font-size: 12px;
 }
 
 /* #region Utility*/
@@ -37,12 +37,32 @@
 .m-right-left{
     margin: 0 2rem;
 }
+.m-top{
+    margin-top: 2rem;
+}
+
+.m-bottom{
+    margin-bottom: 1rem;
+}
+
+.m-top-bottom{
+    margin: 2rem 0;
+}
+
+.m-1rem{
+    margin: 1rem;
+}
+
+.font-size-1rem{
+    font-size:3rem ;
+}
 
 h1{
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: bold;
     width: 93%;
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 /* #region header*/
@@ -76,7 +96,7 @@ nav{
 }
 .jumbotron{
     background-color: #b4d0e7;
-    height: 30rem;
+    
     display: flex;
     justify-content: center;
 }
@@ -97,18 +117,27 @@ nav{
 .container-l-left{
     display: flex;
     flex-direction: column;
-    width: 40%;
-    
+    width: 30%; 
 }
 
-.container-l-right{
-    width: 60%; 
+.container-l-rigth{
+    width: 70%; 
+    position: relative;
+}
+
+.container-l-rigth img{
+    width: 100%;
+    position: absolute;
 }
 
 .free-tryal-button{
     background-color: var(--color-2);
+    color: white;
+    text-decoration: none;
     width: fit-content;
     padding: 0.5rem;
+    margin: 2rem 0;
+
 }
 
 /* #endregion header*/
