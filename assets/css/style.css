@@ -40,14 +40,12 @@
 /* #region header*/
 
 #app-header{
-
+     
 }
 
 nav{
     height: 3rem;
-    display: flex;
-    align-items: center;
-    
+    display: flex;  
 }
 
 
@@ -85,11 +83,14 @@ nav{
 
 #app-main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container-s{
     width:60%    
 }
+
+/* #region sect5ion-1*/
 .find-your-plan{
     
 }
@@ -113,7 +114,9 @@ nav{
     display: flex;
     justify-content:center;
 }
+/* #endregion sect5ion-1*/
 
+/* #region section 2*/
 .enterprise{
     height: 200px;
 
@@ -131,12 +134,64 @@ nav{
 
 .contained-left{
     width: 60%;
-    height: 400px;
+    
 }
 .contained-right{
     width: 40%;
-    height: 400px;
+    
 }
+/* #endregion section-2*/
+
+/* #region section-3*/
+
+
+.section-3{
+    
+}
+.drop-business{
+    height: 200px;
+}
+
+.container-features{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.features{
+    width: calc((100%/12)*4);
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.social-approvment{
+
+}
+
+/* #region Designit*/
+
+.designit{
+    width: 100%;
+    display: flex;
+    
+}
+
+.des{
+    display: flex;
+    width: calc(100%/3);
+    flex-wrap: wrap;
+}
+
+.des span{
+    width: calc(100%/2);
+    aspect-ratio: 1/1;
+}
+
+/* #endregion Designit*/
+
+/* #endregion section-3*/
+
 
 
 

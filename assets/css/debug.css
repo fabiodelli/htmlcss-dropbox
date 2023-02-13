@@ -27,4 +27,39 @@
     height: 650px;
     
 }
+
+.enterprise{
+    height: 200px;
+
+}
+
+.container-contact-us{
+    display: flex;
+    
+    
+}
+
+.container-contact-us{
+    margin-bottom: 2rem;
+}
+
+.contained-left{
+   
+    height: 400px;
+}
+.contained-right{
+   
+    height: 400px;
+}
+
+.features{
+    height: 450px;
+}
+
+.social-approvment{
+    height: 250px;
+}
+.designit div{
+  
+}
 /* #endregion main*/
