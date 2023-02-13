@@ -4,6 +4,7 @@
  box-sizing:border-box;
  font-family: 'Open Sans', sans-serif;
  border: dashed black 1px;
+ font-size: 15px;
 }
 
 /* #region Utility*/
@@ -26,8 +27,8 @@
 
 }
 
-.bg-9{
-    background-color: var(--color-9);
+.bg-2{
+    background-color: var(--color-2);
 } 
 
 
@@ -37,18 +38,25 @@
     margin: 0 2rem;
 }
 
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+    width: 93%;
+    margin-top: 3rem;
+}
+
 /* #region header*/
 
 #app-header{
     position: sticky;
-    top: 0vh;
-     
+    top: 0vh; 
 }
 
 nav{
     height: 3rem;
     display: flex;
     background: white;
+    align-items: center;
 }
 
 
@@ -64,21 +72,44 @@ nav{
 }
 .nav-links{
     margin: 0.7rem;
+    text-decoration: none;
 }
 .jumbotron{
     background-color: #b4d0e7;
-    height: 25rem;
+    height: 30rem;
     display: flex;
     justify-content: center;
 }
 .container-l{
-    width: 70%;
-    
-   
+    width: 70%; 
+    display: flex; 
+    flex-wrap: wrap;
 }
 
-   
+.nav-rigth :last-child{
+    color: white;
+}
 
+.nav-links img{
+    height: 1rem;
+}
+
+.container-l-left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+
+.container-l-right{
+    width: 60%; 
+}
+
+.free-tryal-button{
+    background-color: var(--color-2);
+    width: fit-content;
+    padding: 0.5rem;
+}
 
 /* #endregion header*/
 
