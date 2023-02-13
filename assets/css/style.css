@@ -40,12 +40,15 @@
 /* #region header*/
 
 #app-header{
+    position: sticky;
+    top: 0vh;
      
 }
 
 nav{
     height: 3rem;
-    display: flex;  
+    display: flex;
+    background: white;
 }
 
 
@@ -70,6 +73,7 @@ nav{
 }
 .container-l{
     width: 70%;
+    
    
 }
 
