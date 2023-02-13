@@ -85,6 +85,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 .container-s{
     width:60%    
@@ -169,6 +170,9 @@ nav{
 
 }
 
+
+/* #endregion section-3*/
+
 /* #region Designit*/
 
 .designit{
@@ -190,13 +194,24 @@ nav{
 
 /* #endregion Designit*/
 
-/* #endregion section-3*/
+/* #region free-tryal and faq*/
 
+.free-tryal{
+    background: var(--color-7);
+    width: 100%;
+}
+.faq{
+    width: 100%;
+}
 
-
-
-
-
-
+/* #endregion free-tryal and faq*/
 
 /* #endregion Main*/
+
+/* #region footer*/
+
+#app-footer{
+    background: black;
+}
+
+/* #endregion footer*/
