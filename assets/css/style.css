@@ -4,3 +4,21 @@
  box-sizing:border-box;
  font-family: 'Open Sans', sans-serif;
 }
+
+:root{
+
+--color-1:#b4d0e7;
+--color-2:#0061ff;
+--color-3:#b1b2b5;
+--color-4:#9797f5;
+--color-5:#a2d39b;
+--color-6:#61082b;
+--color-7:#b4d0e7;
+--color-8:#0093ce;
+--color-9:#0d2481;
+--color-10:#ffd830;
+--color-11:#77517e;
+--color-12:#d5001f;
+--color-13:#ff1c1c;
+
+}
