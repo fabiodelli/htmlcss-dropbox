@@ -93,6 +93,11 @@ nav{
 .find-your-plan{
     
 }
+
+.section-1{
+    
+}
+
 .container-plan{
     display: flex;
     justify-content: center;
@@ -101,12 +106,40 @@ nav{
 }
 .plan{
     width: calc((100%/12)*4);
+    margin-bottom: 2rem;
 }
 
 .team{
     display: flex;
     justify-content:center;
 }
+
+.enterprise{
+    height: 200px;
+
+}
+
+.container-contact-us{
+    display: flex;
+    
+    
+}
+
+.container-contact-us{
+    margin-bottom: 2rem;
+}
+
+.contained-left{
+    width: 60%;
+    height: 400px;
+}
+.contained-right{
+    width: 40%;
+    height: 400px;
+}
+
+
+
 
 
 
