@@ -6,6 +6,8 @@
  border: dashed black 1px;
 }
 
+/* #region Utility*/
+
 :root{
 
 --color-1:#b4d0e7;
@@ -24,6 +26,17 @@
 
 }
 
+.bg-9{
+    background-color: var(--color-9);
+} 
+
+
+/* #endregion Utility*/
+
+.m-right-left{
+    margin: 0 2rem;
+}
+
 /* #region header*/
 
 #app-header{
@@ -37,10 +50,6 @@ nav{
     
 }
 
-.jumbotron{
-    background-color: #b4d0e7;
-    height: 25rem;
-}
 
 .nav-left{
     display: flex;
@@ -55,7 +64,51 @@ nav{
 .nav-links{
     margin: 0.7rem;
 }
+.jumbotron{
+    background-color: #b4d0e7;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+}
+.container-l{
+    width: 70%;
+   
+}
+
    
 
 
 /* #endregion header*/
+
+/* #region Main*/
+
+
+#app-main{
+    display: flex;
+    justify-content: center;
+}
+.container-s{
+    width:60%    
+}
+.find-your-plan{
+    
+}
+.container-plan{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.plan{
+    width: calc((100%/12)*4);
+}
+
+.team{
+    display: flex;
+    justify-content:center;
+}
+
+
+
+
+/* #endregion Main*/
