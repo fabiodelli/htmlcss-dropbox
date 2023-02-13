@@ -6,73 +6,65 @@
 
 /* #region main*/
 
-.app-main{
+.app-main {}
 
-}
-.container-s{
-    
-}
+.container-s {}
 
-.section-1{
-    
-}
+.section-1 {}
+
 /* .find-your-plan{
     height: 200px;  
 } */
 
-.container-plan{
-      
-}
-.plan{
+.container-plan {}
+
+.plan {
     height: 650px;
-    
+
 }
 
-.enterprise{
+.enterprise {
     height: 200px;
 
 }
 
-.container-contact-us{
+.container-contact-us {
     display: flex;
-    
-    
+
+
 }
 
-.container-contact-us{
-    margin-bottom: 2rem;
-}
+.contained-left {
 
-.contained-left{
-   
-    height: 400px;
-}
-.contained-right{
-   
     height: 400px;
 }
 
-.features{
+.contained-right {
+
+    height: 400px;
+}
+
+.features {
     height: 450px;
 }
 
-.social-approvment{
+.social-approvment {
     height: 250px;
 }
-.designit div{
-  
-}
 
-.free-tryal{
+.designit div {}
+
+.free-tryal {
     height: 200px;
-   
+
 }
 
-.faq{
+.faq {
     height: 400px;
 }
 
-#app-footer{
-    height:300px;
+#app-footer {
+    height: 300px;
 }
+
 /* #endregion main*/
