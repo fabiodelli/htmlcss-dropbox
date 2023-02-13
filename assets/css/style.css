@@ -38,11 +38,11 @@
     margin: 0 2rem;
 }
 .m-top{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .m-bottom{
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .m-top-bottom{
@@ -63,6 +63,10 @@ h1{
     width: 93%;
     margin-top: 3rem;
     margin-bottom: 2rem;
+}
+h2{
+    font-size: 3rem;
+    margin-top: 8rem;
 }
 
 /* #region header*/
@@ -119,6 +123,9 @@ nav{
     flex-direction: column;
     width: 30%; 
 }
+.container-l-left p{
+    font-size: 14px;
+}
 
 .container-l-rigth{
     width: 70%; 
@@ -157,8 +164,15 @@ nav{
 
 /* #region sect5ion-1*/
 .find-your-plan{
-    
+    display:flex ;
+    justify-content: flex-start;
 }
+
+.section-1 span{
+    display: inline-block;
+    margin: 2rem 1rem 2rem 0 ;
+}
+
 
 .section-1{
     
