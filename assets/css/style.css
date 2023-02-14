@@ -98,7 +98,7 @@ img{
  }
 
  h2 {
-     font-size: 3rem;
+     font-size: 2.6rem;
      margin-top: 8rem;
  }
 
@@ -264,7 +264,7 @@ img{
      flex-wrap: wrap;
      justify-content: space-between;
      align-items: center;
-     padding: 0 1rem;
+     padding: 2rem;
  }
 
  .container-contact-us {
@@ -286,11 +286,8 @@ img{
 
  /* #region section-3*/
 
-
- .section-3 {}
-
  .drop-business {
-     height: 200px;
+    margin-bottom: 3rem;
  }
 
  .container-features {
@@ -303,7 +300,6 @@ img{
 
  .features {
      width: calc((100%/12)*4);
-     margin-bottom: 2rem;
      padding: 1rem;
  }
 
