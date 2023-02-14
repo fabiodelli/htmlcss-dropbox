@@ -37,13 +37,19 @@
  .m-right-left {
      margin: 0 2rem;
  }
+ .m-rigth{
+    margin-right: 0.5rem;
+ }
 
  .m-top {
      margin-top: 3rem;
  }
 
- .m-bottom {
+ .m-bottom-05rem {
      margin-bottom: 0.5rem;
+ }
+ .m-bottom-2rem {
+    margin-bottom: 2rem;
  }
 
  .m-top-bottom {
@@ -174,7 +180,7 @@
      justify-content: flex-start;
  }
 
- .section-1 span {
+ .section-1>span {
      display: inline-block;
      margin: 2rem 1rem 2rem 0;
  }
@@ -186,33 +192,42 @@
      display: flex;
      justify-content: center;
      justify-content: space-between;
-
+    
  }
 
  .plan {
      width: calc((100%/12)*4);
      margin-bottom: 2rem;
      border: 1px solid black;
+     padding-bottom: 2rem;
  }
 
  .header-plan{
     display: flex;
-    justify-content: center;
-    align-items: center; 
-    border: 1px solid black;
+    justify-content: center; 
+    align-items: center;
+    border-bottom: 1px solid black;
     width: 100%;
+    height: 5%;
+    vertical-align: middle;
  }
 
- .plan div{
-    margin: 1rem;
+ .plan>div{
+    margin: 2rem;
  }
 
  .plan h3{
-    margin: 1rem;
+    margin: 2rem;
  }
 
  .plan h4{
-    margin: 1rem;
+    margin: 2rem;
+ }
+
+ #hr{
+    margin: 3rem 0;
+    width: 40%;
+    margin-left: 2rem;
  }
 
  .team {
