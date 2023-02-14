@@ -3,7 +3,7 @@
      padding: 0;
      box-sizing: border-box;
      font-family: 'Open Sans', sans-serif;
-     border: dashed black 1px;
+     /* border: dashed black 1px; */
      font-size: 12px;
  }
 
@@ -150,7 +150,6 @@
      width: fit-content;
      padding: 0.5rem;
      margin: 2rem 0;
-
  }
 
  /* #endregion header*/
@@ -193,6 +192,27 @@
  .plan {
      width: calc((100%/12)*4);
      margin-bottom: 2rem;
+     border: 1px solid black;
+ }
+
+ .header-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid black;
+    width: 100%;
+ }
+
+ .plan div{
+    margin: 1rem;
+ }
+
+ .plan h3{
+    margin: 1rem;
+ }
+
+ .plan h4{
+    margin: 1rem;
  }
 
  .team {
