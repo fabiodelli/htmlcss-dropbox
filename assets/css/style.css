@@ -388,7 +388,7 @@ span img {
 
 .container-free-tryal {
     display: flex;
-    align-items: center;
+    align-items: first baseline;
     justify-content: space-between;
 }
 
@@ -400,10 +400,9 @@ span img {
 .free-tryal-button-white {
     background-color: white;
     color: rgb(0, 0, 0);
-    text-decoration: none;
     width: fit-content;
-    padding: 0.5rem;
-    margin: 2rem 0;
+    padding: 0.5rem 2rem;
+    margin-right: 4.5rem;
 }
 
 .faq {
