@@ -35,13 +35,14 @@ img {
 
 .fa-check {
     color: var(--color-2);
+    font-size: 15px;
 }
 
 a {
     color: var(--color-2);
 }
 
-.black-text{
+.black-text {
     color: black;
 }
 
@@ -84,6 +85,9 @@ a {
 .padding-07rem {
     padding: 0.7rem;
 }
+.padding-05rem {
+    padding: 0.5rem;
+}
 
 .font-size-3rem {
     font-size: 3rem;
@@ -115,6 +119,7 @@ h2 {
     color: rgb(182, 182, 182);
     margin-left: 3rem;
 }
+
 
 /* #endregion Utility*/
 
@@ -155,7 +160,7 @@ nav {
 
 .button-start {
     background-color: var(--color-2);
-    padding:0.3rem 0.5em;
+    padding: 0.3rem 0.5em;
 }
 
 .jumbotron {
@@ -237,9 +242,9 @@ nav {
 }
 
 .plan {
-    width: calc((100%/12)*4);
+    width: calc(((100% - 4rem)/12)*4);
     margin-bottom: 2rem;
-    padding-bottom: 2rem;
+
 }
 
 .header-plan {
@@ -252,16 +257,19 @@ nav {
     vertical-align: middle;
 }
 
-.plan>div {
-    margin: 2rem;
+.main-plan{
+    padding:0 2rem 2rem 2rem
 }
 
-.plan h3 {
-    margin: 2rem;
+.main-plan>* {
+margin: 2rem 0;
+width: 100%;
 }
 
-.plan h4 {
-    margin: 2rem;
+.plan .free-tryal-button  {
+    width: 100%;
+    display: flex;
+    justify-content: center;  
 }
 
 #hr {
@@ -275,18 +283,23 @@ nav {
     justify-content: center;
     border-bottom-color: white;
     padding: 0.7rem;
+    align-items: center;
 }
-
-/* #endregion sect5ion-1*/
-
-/* #region section 2*/
 .enterprise {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     padding: 2rem;
 }
+
+.enterprise .free-tryal-button {
+    margin: 0;
+}
+
+/* #endregion section-1*/
+
+/* #region section 2*/
 
 .container-contact-us {
     display: flex;
@@ -320,8 +333,8 @@ nav {
 }
 
 .features {
-    width: calc((100%/12)*4);
-    padding: 1rem;
+    width: calc(((100% - 4rem)/12)*4);
+    
 }
 
 .social-approvment {}
