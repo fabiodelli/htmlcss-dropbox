@@ -349,6 +349,14 @@ nav {
     flex-wrap: wrap;
 }
 
+.corner-logo{
+    width: 90%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .des-center {
     padding: 3rem;
     background-color: #f5f5f5;
@@ -360,7 +368,7 @@ nav {
     width: 50%;
 }
 
-.des span {
+.des>span {
     width: calc(100%/2);
     aspect-ratio: 1/1;
     display: flex;
