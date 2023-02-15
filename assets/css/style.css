@@ -455,6 +455,24 @@ span img {
 
 #app-footer {
     background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.container-l-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-link{
+    display: flex;
+    flex-direction: column;
+    
+}
+.column-link a{
+    color:white;
+    font-size: 1.1rem;
+    margin: 0.7rem 0;
 }
 
 /* #endregion footer*/
