@@ -371,6 +371,7 @@ h2 {
 .designit {
     width: 100%;
     display: flex;
+    box-shadow: 0px 3px 10px  rgb(150, 150, 150);
 }
 
 .des {
@@ -422,6 +423,7 @@ span img {
     width: 100%;
     display: flex;
     justify-content: center;
+    box-shadow: 0px 3px 10px  rgb(150, 150, 150);
 }
 
 .container-free-tryal {
